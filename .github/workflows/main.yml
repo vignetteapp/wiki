@@ -35,7 +35,8 @@ jobs:
       - name: Build page
         run: cd $GITHUB_WORKSPACE && mkdocs build
         
-      - name: Upload a Build Artifact
+      - name: Upload built site
         uses: actions/upload-artifact@v2.2.4
         with:
+          name: site.zip
           path: site/
