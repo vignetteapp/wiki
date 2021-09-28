@@ -1,3 +1,4 @@
 mkdocs
+mkdocs-gitbook
 #mkdocs-bootswatch
 #mkdocs-minify-plugin
