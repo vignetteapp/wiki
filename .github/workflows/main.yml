@@ -27,13 +27,13 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v2.2.2
         
-      # Install mkdocs
-      - name: Install mkdocs
-        run: pip install mkdocs
+      # Install requirements
+      - name: Install requirements
+        run: cd $GITHUB_WORKSPACE && pip install -r requirements.txt
         
-      # Install mkdocs
+      # Build page
       - name: Build page
-        run: cd $GITHUB_WORKSPACE && mkdocs build
+        run: mkdocs build
         
       - name: Upload built site
         uses: actions/upload-artifact@v2.2.4
