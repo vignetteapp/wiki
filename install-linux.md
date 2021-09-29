@@ -1,2 +1,2 @@
-placeholder
+placeholder for linux install guide
 
