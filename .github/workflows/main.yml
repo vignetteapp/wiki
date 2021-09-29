@@ -28,10 +28,10 @@ jobs:
         
       # Install requirements
       - name: Install docusaurus
-        run: npm install @docusaurus/init@latest
+        run: cd $GITHUB_WORKSPACE && npm install @docusaurus/init@latest
         
       - name: Build page
-        run: cd $GITHUB_WORKSPACE && yarn run build
+        run: yarn run build
         
       - name: Upload built site
         uses: actions/upload-artifact@v2.2.4
