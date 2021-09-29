@@ -23,6 +23,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/vignetteapp/docs/edit/master/website/',
+          routeBasePath: '/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -45,7 +46,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'index',
             position: 'left',
-            label: 'Home Page',
+            label: 'Installation Guide',
           },
           {
             href: 'https://github.com/vignetteapp/vignette',
