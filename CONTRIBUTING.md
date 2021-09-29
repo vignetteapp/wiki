@@ -5,9 +5,20 @@ Want to contribute to the Vignette wiki? Great!
 Before that, keep in mind a couple of points.
 
 1. We use [MKDocs](https://www.mkdocs.org) as our wiki framework.
+
+   
+
 2. All the pages should be neutral, and use second person to refer to the user where possible.
+
+   
+
 3. Avoid using inline HTML where possible.
+
+   
+
 4. Please follow International English grammar rules.
+
+   
 
 ## Markdown styling
 
