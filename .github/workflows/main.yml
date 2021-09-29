@@ -28,7 +28,7 @@ jobs:
         
       # Install requirements
       - name: Install docusaurus
-        run: cd $GITHUB_WORKSPACE && npm install @docusaurus/init@latest
+        run: npx @docusaurus/init@latest init my-website classic && cd $GITHUB_WORKSPACE
         
       - name: Build page
         run: yarn run build
