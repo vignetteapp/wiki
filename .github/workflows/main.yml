@@ -27,6 +27,9 @@ jobs:
       - uses: actions/setup-node@v2.4.1
         
       # Install requirements
+      - name: Install docusaurus
+        run: npm install @docusaurus/init@latest
+        
       - name: Build page
         run: cd $GITHUB_WORKSPACE && yarn run build
         
