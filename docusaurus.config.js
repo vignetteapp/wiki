@@ -63,7 +63,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: 'Home Page',
-                to: '/docs/index',
+                to: '/',
               },
             ],
           },
@@ -71,8 +71,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/your-mom',
+                label: 'Open Collective',
+                href: 'https://opencollective.com/vignette',
               },
               {
                 label: 'Discord',
@@ -87,6 +87,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           {
             title: 'More',
             items: [
+              {
+                label: 'vignetteapp.org',
+                href: 'https://vignetteapp.org',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/vignetteapp/vignette',
