@@ -2,11 +2,11 @@
 
 There are a number of ways to chose from to install Vignette on Linux:
 
--[Steam](#Steam)
+- [Steam](#Steam)
 
--[AUR](#AUR) (on Arch Linux)
+- [AUR](#AUR) (on Arch Linux)
 
--[Portable](#Portable)
+- [Portable](#Portable)
 
 
 

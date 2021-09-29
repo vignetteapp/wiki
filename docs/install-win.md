@@ -2,11 +2,11 @@
 
 There are a number of ways to chose from toinstall Vignette on Windows:
 
--[Windows Store](#Windows-Store)
+- [Windows Store](#Windows-Store)
 
--[Steam](#Steam)
+- [Steam](#Steam)
 
--[Portable](#Portable)
+- [Portable](#Portable)
 
 
 
