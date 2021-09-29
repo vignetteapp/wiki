@@ -4,7 +4,7 @@ There are a number of ways to chose from to install Vignette on Linux:
 
 - [Steam](#Steam)
 
-- [AUR](#AUR) (on Arch Linux)
+- [AUR](#AUR)
 
 - [Portable](#Portable)
 
