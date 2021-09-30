@@ -23,6 +23,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/vignetteapp/docs/edit/master/website/',
+          routeBasePath: '/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,9 +44,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             type: 'doc',
-            docId: 'index',
+            docId: 'install/install-methods',
             position: 'left',
-            label: 'Home Page',
+            label: 'Installation Guide',
           },
           {
             href: 'https://github.com/vignetteapp/vignette',
@@ -62,7 +63,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: 'Home Page',
-                to: '/docs/index',
+                to: '/',
+              },
+              {
+                label: 'Installation Guide',
+                to: '/install/install-methods',
               },
             ],
           },
@@ -70,8 +75,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/your-mom',
+                label: 'Open Collective',
+                href: 'https://opencollective.com/vignette',
               },
               {
                 label: 'Discord',
@@ -86,6 +91,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           {
             title: 'More',
             items: [
+              {
+                label: 'vignetteapp.org',
+                href: 'https://vignetteapp.org',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/vignetteapp/vignette',
