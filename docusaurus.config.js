@@ -65,6 +65,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 label: 'Home Page',
                 to: '/',
               },
+              {
+                label: 'Installation Guide',
+                to: '/install/install-methods',
+              },
             ],
           },
           {
