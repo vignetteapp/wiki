@@ -8,4 +8,4 @@ sidebar_position: 3
 
 TODO
 
-<link rel="stylesheet" href="/styles/disableNavigation.css" />
+-both-

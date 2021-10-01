@@ -1,5 +1,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const disableButton = require('./src/remark/disableButton');
 
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
@@ -23,7 +24,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/vignetteapp/docs/edit/master/',
-          routeBasePath: '/'
+          routeBasePath: '/',
+          remarkPlugins: [disableButton],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

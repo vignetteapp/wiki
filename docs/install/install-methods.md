@@ -14,4 +14,4 @@ target platform, please [raise an issue](https://github.com/vignetteapp/vignette
 - [AUR (Linux)](install-aur.md)
 - [Portable](install-portable.md)
 
-<link rel="stylesheet" href="/styles/disableNext.css" />
+-next-
