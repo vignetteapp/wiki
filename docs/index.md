@@ -9,7 +9,7 @@ sidebar_position: 1
 
 This is the place that stores the cumulative knowledge of the Vignette community. 
 
-To get started, you can go on the [Installation Guide](install/install-methods.md).
+To get started, you can go on the [Installation Guide](install/prerequisites.md).
 
 Or, if you are looking for a specific page, you can use the sidebar instead.
 Currently WIP.
