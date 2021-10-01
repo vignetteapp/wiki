@@ -121,4 +121,21 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         darkTheme: darkCodeTheme,
       },
     }),
+
+    plugins: [
+      function preloadStyle() {
+        return {
+          name: 'preloadStyle',
+          injectHtmlTags() {
+            return {
+              headTags: [
+                '<link rel="preload" href="/styles/disableNavigation.css" as="style">',
+                '<link rel="preload" href="/styles/disableNext.css" as="style">',
+                '<link rel="preload" href="/styles/disablePrev.css" as="style">'
+              ]
+            }
+          }
+        };
+      },
+    ]
 });
