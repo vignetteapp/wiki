@@ -30,7 +30,7 @@ Linux releases are also provided alongside our Windows ZIP releases. Using the s
 directory.
 
 :::note
-Should the executable fail to load for the first time, you may have to mark `Vignette` as executable; you can do this by right clicking into the file in your file manager, and
+Should the executable fail to load for the first time, you may have to mark `Vignette` as executable; You can do this by right clicking into the file in your file manager, and
 check **"Mark as executable"**. Alternatively, use **`chmod +x Vignette`** in the terminal.
 :::
 
