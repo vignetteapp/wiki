@@ -29,10 +29,10 @@ At best, Vignette requires the following:
 
 These are the minimum requirements to get an optimal experience to run *just Vignette*. This does not account for other programs and other workloads.
 
-## Recommended requirements
+## Recommended Requirements
 
 If you are a streamer, or a system integrator looking into using Vignette into your own workflow or agency, we recommend the following specifications to run
-Vignette. These requirements account for common streaming workflows and CPU/GPU intensive workloads combined with Vignette:
+Vignette as these set of specifications takes into account for common streaming workflows and CPU/GPU intensive workloads combined with the application:
 
 - An Octa-Core CPU.
 - At least 8-16GB of memory.
