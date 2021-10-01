@@ -6,9 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [ docusaurus-dev ]
   pull_request:
-    branches: [ master ]
+    branches: [ docusaurus-dev ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -24,19 +24,17 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - name: Setup Python
-        uses: actions/setup-python@v2.2.2
+      - uses: actions/setup-node@v2.4.1
         
       # Install requirements
-      - name: Install requirements
-        run: cd $GITHUB_WORKSPACE && pip install -r requirements.txt
+      - name: Install docusaurus
+        run:  cd $GITHUB_WORKSPACE && yarn install
         
-      # Build page
       - name: Build page
-        run: mkdocs build
+        run: yarn run build
         
       - name: Upload built site
         uses: actions/upload-artifact@v2.2.4
         with:
           name: site.zip
-          path: site/
+          path: build/
