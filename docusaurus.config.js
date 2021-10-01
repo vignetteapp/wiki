@@ -101,8 +101,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
             ],
           },
+          {
+            title: "‎",
+            items: [
+              {
+                html: `
+                  <a href="https://vercel.com/?utm_source=vignette&utm_campaign=oss" target="_blank" rel="noreferrer noopener" aria-label="Powered by Vercel">
+                    <img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" alt="Powered by Vercel" />
+                  </a>
+                `,                
+              },
+            ],
+          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ayane Satomi and The Vignette Authors`,
+        copyright: `Copyright © ${new Date().getFullYear()} The Vignette Authors. Licensed under MIT.`,
       },
       prism: {
         theme: lightCodeTheme,
