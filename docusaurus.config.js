@@ -102,7 +102,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
           {
-            title: "",
+            title: "Powered by",
             items: [
               {
                 html: `
