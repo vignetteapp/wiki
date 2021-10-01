@@ -1,0 +1,4 @@
+.pagination-nav__item.pagination-nav__item--next {
+  opacity: 0;
+  pointer-events: none;
+}
