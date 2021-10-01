@@ -114,7 +114,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()}The Vignette Authors.Licensed under MIT.`,
+        copyright: `Copyright © ${new Date().getFullYear()} The Vignette Authors. Licensed under MIT.`,
       },
       prism: {
         theme: lightCodeTheme,
