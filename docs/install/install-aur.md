@@ -10,8 +10,6 @@ If you prefer to install Vignette on Linux, we provide an official AUR package. 
 
 The package is [`vignette-git`](https://aur.archlinux.org/packages/vignette-git/).
 
-Here I'll be using `yay`.
-
 
 
 ## Installation process
