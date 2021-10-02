@@ -46,7 +46,7 @@ const disableButton = require('./src/remark/disableButton');
         items: [
           {
             type: 'doc',
-            docId: 'install/install-methods',
+            docId: 'install/prerequisites',
             position: 'left',
             label: 'Installation Guide',
           },
@@ -69,7 +69,7 @@ const disableButton = require('./src/remark/disableButton');
               },
               {
                 label: 'Installation Guide',
-                to: '/install/install-methods',
+                to: '/install/prerequisites',
               },
             ],
           },
@@ -122,22 +122,5 @@ const disableButton = require('./src/remark/disableButton');
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    }),
-
-    plugins: [
-      function preloadStyle() {
-        return {
-          name: 'preloadStyle',
-          injectHtmlTags() {
-            return {
-              headTags: [
-                '<link rel="preload" href="/styles/disableNavigation.css" as="style">',
-                '<link rel="preload" href="/styles/disableNext.css" as="style">',
-                '<link rel="preload" href="/styles/disablePrev.css" as="style">'
-              ]
-            }
-          }
-        };
-      },
-    ]
+    })
 });
