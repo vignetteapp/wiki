@@ -12,7 +12,8 @@ If you wish to install Vignette on your Arch Linux computer, you may use any AUR
 
 ## Installation process
 
-In order to install Vignette using yay, please run the following command: 
+In order to install Vignette using yay, run the following command:
+
 
 `yay vignette-git`
 
