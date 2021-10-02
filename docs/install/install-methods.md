@@ -26,7 +26,29 @@ Vignette provides a lot of official ways for you to get the software. We have li
   Until then, please consinder installing it via our Portable Installation Guide or AUR Installation Guide.
   </TabItem>
   <TabItem value="aur" label="AUR (Linux)">
+If you prefer to install Vignette on Linux,  we provide the official [`vignette-git`](https://aur.archlinux.org/packages/vignette-git/) AUR package. This guide will be using `yay`.
 
+
+
+## Installation process
+
+In order to install Vignette using yay, run the following command:
+
+`yay vignette-git`
+
+
+
+If more than one package appears you should find the right package, which should be listed as `aur/vignette-git`. In this example, that package is number `1`.
+
+![Image of yay listing package, with aur/vignette-git on position 1](/img/install/yay-terminal-window.webp)
+
+
+
+:::note 
+
+When prompted for your password for sudo, enter it to proceed with the installation.
+
+:::
   </TabItem>
   <TabItem value="portable" label="Portable">
 If you do not prefer to install Vignette on your system and would like a "portable" binary, Vignette also provides such binaries.
@@ -36,9 +58,9 @@ aside from the aforementioned prerequisites.
 ## Windows
 
 We provide Windows releases in our [GitHub](https://github.com/vignetteapp/vignette/releases/latest) as ZIP files. Find the ZIP for the respective platform
-and download it.
+and download it. Below is an image of the Assets section of a previous release:
 
-![GitHub Release (TODO PROVIDE IMAGE)](https://example.com)
+![Image of the `Assets` section of a previous release](/img/install/assets.png)
 
 Extract the ZIP to your desired location and run `Vignette.exe`. The client should launch without any issues.
 
@@ -61,3 +83,7 @@ Once everything has been extracted, run `Vignette`.
 
   </TabItem>
 </Tabs>
+
+## Welcome to Vignette!
+
+Don't forget to visit the [UI Overview](/client/overview.md) once your installation has completed. Alternatively, you can use the sidebar to get familiar with the interface of the application.
