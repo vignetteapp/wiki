@@ -20,7 +20,7 @@ In order to install Vignette using yay, run the following command:
 
 If more than one package appears you should find the right package, which should be listed as `aur/vignette-git`. In this example, that package is number `1`.
 
-![](/img/install/yay-terminal-window.webp)
+![Image of yay listing package, with aur/vignette-git on position 1](/img/install/yay-terminal-window.webp)
 
 
 
@@ -29,8 +29,6 @@ If more than one package appears you should find the right package, which should
 When prompted for your password for sudo, enter it to proceed with the installation.
 
 :::
-
-
 
 
 
