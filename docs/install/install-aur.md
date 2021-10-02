@@ -41,7 +41,7 @@ When prompted for your password for sudo, enter it to proceed with the installat
 
 ## Welcome to Vignette!
 
-Please visit the UI Overview page [here](/client/overview.md) or from the sidebar in order to make yourself more familiar with the interface and features of the app. Thank you for chosing Vignette!
+Don't forget to visit the [UI Overview](/client/overview.md) once your installation has completed. Alternatively, you can use the sidebar to get familiar with the interface of the application.
 
 -both-
 
