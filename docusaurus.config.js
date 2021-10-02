@@ -113,6 +113,11 @@ const disableButton = require('./src/remark/disableButton');
                   </a>
                 `,                
               },
+              {
+                html: `
+                  <script async src="https://arc.io/widget.min.js#GM5eSs4n"></script>
+                `,
+              },
             ],
           },
         ],
