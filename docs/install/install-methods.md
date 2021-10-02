@@ -26,7 +26,8 @@ Vignette provides a lot of official ways for you to get the software. We have li
   Until then, please consinder installing it via our Portable Installation Guide or AUR Installation Guide.
   </TabItem>
   <TabItem value="aur" label="AUR (Linux)">
-If you prefer to install Vignette on Linux,  we provide the official [`vignette-git`](https://aur.archlinux.org/packages/vignette-git/) AUR package. This guide will be using `yay`.
+
+  If you prefer, to install Vignette on Linux we provide the official [`vignette-git`](https://aur.archlinux.org/packages/vignette-git/) AUR package. This guide will be using `yay`.
 
 
 
