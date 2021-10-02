@@ -6,9 +6,7 @@ sidebar_position: 4
 
 # Installing Vignette using AUR
 
-If you prefer to install Vignette on Linux, we provide an official AUR package. For this guide, we will be using `yay`.
-
-The package is [`vignette-git`](https://aur.archlinux.org/packages/vignette-git/).
+If you prefer to install Vignette on Linux,  we provide the official [`vignette-git`](https://aur.archlinux.org/packages/vignette-git/) AUR package. For this guide, we will be using `yay`.
 
 
 
