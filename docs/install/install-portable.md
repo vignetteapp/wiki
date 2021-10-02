@@ -13,9 +13,9 @@ aside from the aforementioned prerequisites.
 ## Windows
 
 We provide Windows releases in our [GitHub](https://github.com/vignetteapp/vignette/releases/latest) as ZIP files. Find the ZIP for the respective platform
-and download it.
+and download it. Below is an image of the Assets section of a previous release:
 
-![GitHub Release (TODO PROVIDE IMAGE)](https://example.com)
+![Image of the `Assets` section of a previous release](/img/install/assets.png)
 
 Extract the ZIP to your desired location and run `Vignette.exe`. The client should launch without any issues.
 
