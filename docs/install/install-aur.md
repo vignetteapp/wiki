@@ -31,7 +31,7 @@ If more than one package appears you should find the right package, which should
 
 :::note 
 
-You may be required to type your password into the terminal when prompted.
+When prompted for your password for sudo, enter it to proceed with the installation.
 
 :::
 
