@@ -1,6 +1,5 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const disableButton = require('./src/remark/disableButton');
 
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
@@ -24,8 +23,7 @@ const disableButton = require('./src/remark/disableButton');
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/vignetteapp/docs/edit/master/',
-          routeBasePath: '/',
-          remarkPlugins: [disableButton],
+          routeBasePath: '/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -46,7 +44,7 @@ const disableButton = require('./src/remark/disableButton');
         items: [
           {
             type: 'doc',
-            docId: 'install/install-methods',
+            docId: 'install/prerequisites',
             position: 'left',
             label: 'Installation Guide',
           },
@@ -69,7 +67,7 @@ const disableButton = require('./src/remark/disableButton');
               },
               {
                 label: 'Installation Guide',
-                to: '/install/install-methods',
+                to: '/install/prerequisites',
               },
             ],
           },
@@ -127,22 +125,5 @@ const disableButton = require('./src/remark/disableButton');
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    }),
-
-    plugins: [
-      function preloadStyle() {
-        return {
-          name: 'preloadStyle',
-          injectHtmlTags() {
-            return {
-              headTags: [
-                '<link rel="preload" href="/styles/disableNavigation.css" as="style">',
-                '<link rel="preload" href="/styles/disableNext.css" as="style">',
-                '<link rel="preload" href="/styles/disablePrev.css" as="style">'
-              ]
-            }
-          }
-        };
-      },
-    ]
+    })
 });
