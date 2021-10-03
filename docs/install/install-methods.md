@@ -14,14 +14,12 @@ Vignette provides a lot of official ways for you to get the software. We have li
 <Tabs groupId="operating-systems">
   <TabItem value="microsoft-store" label="Microsoft Store (Windows)" default>
   
-  Vignette is Coming Soon to the Microsoft Store! 
-  
-  
+  Vignette is Coming Soon to the Microsoft Store!
+
   Until then, please consinder installing it via our Portable Installation Guide
   </TabItem>
   <TabItem value="steam" label="Steam">
   Vignette is Coming Soon to Steam!
-  
 
   Until then, please consinder installing it via our Portable Installation Guide or AUR Installation Guide.
   </TabItem>
