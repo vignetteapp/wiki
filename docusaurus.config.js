@@ -111,11 +111,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                   </a>
                 `,                
               },
-              {
-                html: `
-                  <script async src="https://arc.io/widget.min.js#GM5eSs4n"></script>
-                `,
-              },
             ],
           },
         ],
