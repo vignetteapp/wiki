@@ -15,3 +15,6 @@ Or, if you are looking for a specific page, you can use the sidebar instead.
 Currently WIP.
 
 If you would like to contribute, please consult our [Contribution Guidelines](https://github.com/vignetteapp/docs/blob/master/CONTRIBUTING.md).
+
+
+Note: Vignette is currently in technical preview, so a lot of the features that you would expect from a full release aren't ready yet.
